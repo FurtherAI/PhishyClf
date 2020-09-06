@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
-from tensorflow import keras as k
+import keras as k
 from matplotlib import pyplot as plt
 import ssl
 import OpenSSL
