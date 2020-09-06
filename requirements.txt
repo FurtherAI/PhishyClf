@@ -38,7 +38,7 @@ Flask-Cors==3.0.9
 Flask-Session==0.3.2
 gast==0.3.3
 google==3.0.0
-google-auth==1.6.3
+google-auth==1.4.0
 google-auth-oauthlib==0.4.1
 google-colab==1.0.0
 google-pasta==0.2.0
