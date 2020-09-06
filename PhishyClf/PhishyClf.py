@@ -264,7 +264,8 @@ class SeqModel:
         plt.show()
 
 
-def main(url):
+def main():
+    url1 = ''
     model = SeqModel()
     pred = model.predict(url)
     if pred.argmax() == 0: return 1
