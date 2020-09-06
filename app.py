@@ -1,6 +1,6 @@
 from flask import Flask, jsonify, request, render_template
 from flask_cors import CORS
-from PhishyClf/PhishyClf import make_pred
+from PhishyClf.PhishyClf import *
 
 app = Flask(__name__)
 CORS(app)
