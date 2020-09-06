@@ -265,10 +265,11 @@ class SeqModel:
 
 
 def main():
-    url1 = ''
+    url1 = 'https://www.paypal.com/'
+    url2 = 'http://destek-2020-turkiye-sistemi.ml'
     model = SeqModel()
-    pred = model.predict(url)
+    pred = model.predict(url1)
     if pred.argmax() == 0: return 1
     else: return 0
 
-print(main('https://github.com/'))
+# print(main('https://github.com/'))
