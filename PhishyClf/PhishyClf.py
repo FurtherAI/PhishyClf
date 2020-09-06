@@ -264,7 +264,7 @@ class SeqModel:
         plt.show()
 
 
-def main():
+def make_pred():
     url1 = 'https://www.paypal.com/'
     url2 = 'http://destek-2020-turkiye-sistemi.ml'
     model = SeqModel()
