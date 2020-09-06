@@ -1,6 +1,6 @@
 from flask import Flask, jsonify, request, render_template
 from flask_cors import CORS
-from PhishyClf import main
+import PhishyClf
 
 app = Flask(__name__)
 CORS(app)
@@ -10,7 +10,7 @@ def hello():
 
     # POST request
     if request.method == 'POST':
-        return main(), 200
+        return PhishyClf.make_pred(), 200
 
     # GET request
     else:
